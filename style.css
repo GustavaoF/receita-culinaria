@@ -12,10 +12,11 @@ body{
 }
 
 header{
-    display: inline;
+    display: flex;
     width: 100%;
     background: gray;
     justify-content: space-around;
+    flex-direction: row;
     padding: 1rem;
     color: white;
 
