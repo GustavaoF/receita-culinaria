@@ -1,0 +1,20 @@
+/* PRÉ-FIGURAÇÕES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    background: gray;
+    padding: 1rem;
+    justify-content: center;
+}
