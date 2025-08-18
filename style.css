@@ -1,23 +1,94 @@
-/* PRÉ-FIGURAÇÕES */
-
+/* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    box-sizing: border-box;
-    font-size: 20px;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
 }
 
-header{
-    display: flex;
-    width: 100%;
-    background: gray;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 1rem;
-    color: white;
+header {
+  background-color: #ff8c00;
+  color: white;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
 
+header h1 {
+  font-size: 2em;
+}
+
+header button {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: white;
+  color: #ff8c00;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+header button:hover {
+  background-color: #ffe0b2;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.receita {
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 5px solid #ffa500;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.receita h2 {
+  color: #d35400;
+  margin-bottom: 10px;
+}
+
+.receita-conteudo {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.receita img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.receita ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #ffe0b2;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-top: 2px solid #ffa500;
+}
+
+footer h2 {
+  color: #d35400;
+  margin-bottom: 10px;
 }
